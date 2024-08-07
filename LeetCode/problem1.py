@@ -1,3 +1,5 @@
+"""Difficulty level: Easy"""
+
 """ Problem Description:
 Merge Strings Alternatively
 You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string 
@@ -9,7 +11,6 @@ Return the merged string. """
 1. Identify the word with the longest length to set loop range
 2. Create a single for-loop
 3. Write an if condition: Set even numbers in range to word1 letters, set odd numbers in range to word2 letters.
- 
 
 """
 
