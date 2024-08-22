@@ -1,3 +1,15 @@
+"""Difficulty level: Easy"""
+
+"""Problem Description:
+Greatest Common Divisor of Strings
+For two strings s and t, we say "t divides s" if and only if s = t + t + t + ... + t + t (i.e., t is concatenated with itself one or more times).
+Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2."""
+
+"""Approach:
+1. Iterate through the strings using the minimum string length to avoid out of range error
+2. Try out different combinations of string splices iteratively and check if they are divisible
+3. Create a divisible funciton that checks for gcd by modular operation and factors to multiply to get the right output"""
+
 def gcdOfStrings(self, str1, str2):
 
     len1 = len(str1)
