@@ -8,3 +8,4 @@
 
 ## Function Learnings:
 - `max()` can find maximum value between variables with numeric values 
+- `min()` can find minimum values between variables with numeric values
